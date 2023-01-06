@@ -11,13 +11,12 @@ body {
 /* header section styles */
 
 .header-section {
-  background-image: url("../banner/banner2.png");
+  background-image: url("../images/banner/banner2.png");
   height: 800px;
   padding: 200px;
-  
 }
-.banner{
-    float: right;
+.banner {
+  float: right;
 }
 .section-title {
   width: 525px;
@@ -26,7 +25,7 @@ body {
   line-height: 76px;
   text-align: right;
   margin-bottom: 24px;
-  
+  color: #151414;
 }
 .section-description {
   color: #444343;
@@ -49,4 +48,42 @@ body {
   border: none;
   border-radius: 5px;
   float: right;
+}
+/* all sections for this class */
+.container {
+  margin: 130px auto;
+  width: 1140px;
+}
+/* My failures of previous year section styles */
+.my-failures-section {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.mf-right-section {
+}
+.mf-right-section .section-title {
+  font-size: 40px;
+  line-height: 47px;
+  text-align: left;
+  width: 288px;
+}
+.mf-right-section .section-description {
+  text-align: left;
+  margin-left: 0;
+}
+.mf-right-section ul {
+  padding: 0;
+}
+.mf-right-section ul li {
+  list-style: none;
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.mf-right-section ul li > i{
+  margin-right: 10px;
+  color: #16D887;
 }
