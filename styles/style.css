@@ -83,7 +83,115 @@ body {
   line-height: 26px;
   margin-bottom: 10px;
 }
-.mf-right-section ul li > i{
+.mf-right-section ul li > i {
   margin-right: 10px;
-  color: #16D887;
+  color: #16d887;
+}
+/* My Plans section styles */
+.mp-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mp-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.mp-content-cards {
+  text-align: center;
+}
+.mp-cards-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 25px 0;
+}
+.mp-cards-description {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+/* Watch section styles */
+.watch-section {
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  height: 300px;
+  padding: 60px 65px;
+}
+.watch-section .section-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: left;
+}
+.watch-section .primary-btn {
+  color: #f15b22;
+  background-color: #ffffff;
+  float: left;
+}
+/* footer section styles */
+footer {
+  background-color: #151414;
+}
+.footer-section {
+  padding: 130px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.footer-left-section {
+  width: 485px;
+}
+.footer-left-title {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 16px;
+}
+.footer-left-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.footer-left-img {
+  margin-right: 18px;
+}
+.footer-right-section {
+  width: 325px;
+}
+.footer-right-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+.footer-right-section input {
+  width: 100%;
+  padding: 20px;
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-right-section .primary-btn {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #ffffff;
+  float: left;
 }
