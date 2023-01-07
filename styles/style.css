@@ -195,3 +195,56 @@ footer {
   background-color: #ffffff;
   float: left;
 }
+/* About section styles */
+.about-section{}
+.about-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-header hr{
+  width: 193px;
+  height: 3px;
+  background-color: #252525;
+  margin-left: 30px;
+}
+.about-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+}
+.about-description{
+  font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.about-content{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px; 
+}
+.about-left{
+  display: flex;
+  align-items: center;
+}
+.about-left-div{
+  width: 100px;
+  height: 450px;
+  background-color: #f15b22;
+  position: absolute;
+  z-index: -1;
+  left: 150px;
+}
+.about-left-img{}
+.about-right{}
+.about-right-description{
+  font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about-right .primary-btn{
+  float: left;
+}
